@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"></head>
+<body>
+    <nav class="header-1">
+        <a href="index.html"><img src="image/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="#enroll">ENROLL</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<section class="sub-header">
+    
+    <h1>Our Certificate & Online Programs For 2021</h1>
+</section>
+    <!--------------- blog page content --------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/certificate.jpg" alt="certificate img">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit soluta nemo minus incidunt nulla eveniet dolorem officia odit temporibus, molestias itaque accusantium? Aut ad quaerat nesciunt fuga ipsum facere architecto!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, cupiditate! Maxime totam dolorem, praesentium ratione iure odio, modi similique voluptatem maiores est sapiente unde accusantium deserunt repellendus rerum nisi officia.</p>
+                <br>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi impedit corporis sed non illo eaque? Laboriosam rem in dolore perspiciatis, accusantium atque fugit minima consectetur ipsam quidem quod earum nemo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt error ipsum explicabo deleniti fugit? Mollitia, vitae fuga labore quam, dolor facilis ipsam nesciunt repudiandae et enim minima tempora, tenetur quis?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam maxime, laudantium alias ab odit adipisci illo debitis cumque blanditiis at hic? Veritatis quae expedita error ipsa eum deserunt est earum.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                   <form class="comment-form">
+                       <input type="text" placeholder="Enter name">
+                       <input type="email" placeholder="Enter email">
+                       <textarea rows="5" placeholder="Your Comment"></textarea>
+                       <button type="submit" class="hero-btn red-btn" >POST COMMENT</button>
+
+                   </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>22</span>
+                </div> 
+                <div>
+                    <span>Machine Learning</span>
+                    <span>14</span>
+                </div>
+               <div>
+                    <span>Web Development</span>
+                    <span>18</span>
+               </div>
+               <div>
+                    <span>Software Testing</span>
+                     <span>20</span>
+               </div>
+               <div>
+                      <span>Data Science</span>
+                       <span>17</span>
+               </div>
+               <div>
+                     <span>Backend Developer</span>
+                    <span>22</span>
+               </div>
+               <div>
+                    <span>Cyber Security</span>
+                    <span>16</span>
+               </div>
+               <div>
+                   <span>Full Stack Developer</span>
+                   <span>19</span>
+               </div>
+            </div>
+        </div>
+
+    </section>
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem mollitia quibusdam itaque unde ipsam enim dolores libero! <br> Voluptatem, nulla voluptatum animi cupiditate aut unde enim odio, itaque tenetur natus veniam?</p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-twitter"></i>
+    </div>
+    <p>Copyright @ Quality Software Testing</p>
+
+</section>
+<!-- JavaScript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+    
+</body>
+</html>
